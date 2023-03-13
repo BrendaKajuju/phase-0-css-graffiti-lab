@@ -1,1 +1,26 @@
 /* write your override styles here */
+#tag-2.slick {
+    /* styles for tag-2 element with class slick */
+    background-color: yellow;
+  }
+  
+  .slick.wicked {
+    /* styles for elements with classes slick and wicked */
+    font-size: 24px;
+  }
+  
+  .parent #tag-5 {
+    /* styles for tag-5 element inside parent element */
+    color: blue;
+  }
+  
+  .parent #tag-6 {
+    /* styles for tag-6 element inside parent element */
+    border: 1px solid black;
+  }
+  
+  div[id="tag-7"] {
+    /* styles for element with id tag-7 */
+    text-decoration: underline;
+  }
+  
